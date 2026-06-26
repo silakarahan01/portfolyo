@@ -66,7 +66,7 @@ export const projects: Project[] = [
       "101 Okey asistanı uygulaması için landing page. GSAP + Lenis ile scroll'a bağlı sinematik canvas animasyonları ve akıcı geçişler.",
     tech: ["Next.js", "TypeScript", "GSAP", "Tailwind CSS"],
     github: "https://github.com/silakarahan01/dizgitsin-landing",
-    demo: "https://silakarahan.com.tr",
+    demo: "https://dizgitsin.com",
     screenshot: "/screenshots/Dizgitsin1024x500.png",
     status: "live",
     category: "landing",
