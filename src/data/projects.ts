@@ -25,9 +25,9 @@ export interface Project {
 export const projects: Project[] = [
   // ───────────────────────── Frontend & Yazılım ─────────────────────────
   {
-    title: "GoalTesting — Ana Platform",
+    title: "Goal Testing — Ana Platform",
     description:
-      "GoalTesting'in ana kurumsal web sitesi. Bu projede frontend (arayüz) geliştirmesinde yer aldım; modern, kullanıcı dostu arayüzle hizmet ve ürünleri sergiliyor.",
+      "Goal Testing'in ana kurumsal web sitesi. Bu projede frontend (arayüz) geliştirmesinde yer aldım; modern, kullanıcı dostu arayüzle hizmet ve ürünleri sergiliyor.",
     tech: ["HTML5", "Tailwind CSS", "JavaScript"],
     github: null,
     demo: "https://goaltesting.net",
@@ -37,9 +37,9 @@ export const projects: Project[] = [
     domain: "frontend",
   },
   {
-    title: "GoalTesting — Satış Portalı",
+    title: "Goal Testing — Satış Portalı",
     description:
-      "GoalTesting'in satış ekipleri için yönetim ve takip portalı. Bu projede frontend (arayüz) geliştirmesinde çalıştım.",
+      "Goal Testing'in satış ekipleri için yönetim ve takip portalı. Bu projede frontend (arayüz) geliştirmesinde çalıştım.",
     tech: ["HTML5", "Tailwind CSS", "JavaScript"],
     github: null,
     demo: "https://sales.goaltesting.net",
@@ -61,7 +61,7 @@ export const projects: Project[] = [
     domain: "frontend",
   },
   {
-    title: "dizgitsin — Landing",
+    title: "DizGitsin — Landing Page",
     description:
       "101 Okey asistanı uygulaması için landing page. GSAP + Lenis ile scroll'a bağlı sinematik canvas animasyonları ve akıcı geçişler.",
     tech: ["Next.js", "TypeScript", "GSAP", "Tailwind CSS"],

@@ -5,14 +5,14 @@ import { Briefcase, Calendar, MapPin } from "lucide-react";
 
 const experiences = [
   {
-    company: "GoalTesting",
+    company: "Goal Testing",
     role: "Frontend Developer",
-    type: "Yarı Zamanlı · Staj",
+    type: "Yarı Zamanlı · Zorunlu Staj",
     period: "Ağustos 2025 — Temmuz 2026",
     location: "İstanbul, Türkiye",
-    current: true,
+    current: false,
     description:
-      "Goal Testing ekosistemindeki web ürünlerinin frontend mimarisini kurguladım; ana platform, satış paneli ve kullanıcı portallarının arayüzlerini modern UI/UX ve responsive ilkelerle geliştirdim.",
+      "Goal Testing ekosistemindeki web ürünlerinin frontend mimarisini kurguladım; ana platform, satış paneli ve kullanıcı portallarının arayüzlerini modern UI/UX ve responsive ilkelerle geliştirdim. Bu süreçte Şubat–Mayıs 2026 arasındaki zorunlu stajımı da aynı ekipte tamamladım.",
     highlights: [
       "Ana web platformu, satış paneli ve kullanıcı portallarının frontend mimarisini, modern UI/UX standartları ve responsive tasarım ilkelerine uygun olarak sıfırdan kurgulayıp geliştirdim.",
       "Web performansını (Core Web Vitals) artırmak için Lazy Loading, kod bölme (code-splitting) ve etkili DOM yönetimi uyguladım; BEM mimarisiyle sürdürülebilir ve modüler bir CSS yapısı kurdum.",

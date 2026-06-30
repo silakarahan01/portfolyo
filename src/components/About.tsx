@@ -12,12 +12,12 @@ const skills = [
   {
     icon: Code2,
     title: "C# / .NET",
-    items: ["C#", ".NET", "WPF", "MVVM", "Desktop Uygulama"],
+    items: ["C#", ".NET", "WPF", "MVVM", "BCrypt", "Desktop Uygulama"],
   },
   {
     icon: BrainCircuit,
     title: "Python & AI",
-    items: ["Python", "Deep Learning", "TensorFlow / PyTorch", "Veri İşleme", "Django"],
+    items: ["Python", "Deep Learning", "TensorFlow / PyTorch", "Pandas", "NumPy", "Veri İşleme", "Django"],
   },
   {
     icon: Database,
@@ -75,7 +75,7 @@ export default function About() {
                   rel="noopener noreferrer"
                   className="text-sky-400 hover:text-sky-300 transition-colors"
                 >
-                  GoalTesting
+                  Goal Testing
                 </a>
                 ’te görev aldım; JavaScript, TypeScript, React Native, HTML5,
                 CSS3, Tailwind CSS ve Bootstrap 5 gibi teknolojilerle kullanıcı

@@ -56,7 +56,7 @@ export default function Contact() {
             İş Görüşmeleri İçin İletişim
           </h2>
           <p className="text-slate-400 max-w-lg mx-auto">
-            Frontend / Full Stack pozisyonları ve iş görüşmeleri için aşağıdaki
+            İş görüşmeleri için aşağıdaki
             kanallardan bana ulaşabilirsiniz. Mesajlarınıza en kısa sürede dönüş
             yaparım.
           </p>

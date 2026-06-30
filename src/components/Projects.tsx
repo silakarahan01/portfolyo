@@ -9,7 +9,7 @@ const frontend = projects.filter((p) => p.domain === "frontend");
 
 interface ColumnProps {
   id: string;
-  eyebrow: string;
+  eyebrow?: string;
   title: string;
   description: string;
   items: Project[];
@@ -34,9 +34,11 @@ function ProjectColumn({
         transition={{ duration: 0.5 }}
         className="mb-8"
       >
-        <span className="text-sky-400 text-sm font-semibold uppercase tracking-widest mb-2 block">
-          {eyebrow}
-        </span>
+        {eyebrow && (
+          <span className="text-sky-400 text-sm font-semibold uppercase tracking-widest mb-2 block">
+            {eyebrow}
+          </span>
+        )}
         <h2 className="text-2xl sm:text-3xl font-bold text-slate-100 mb-3">
           {title}
         </h2>
@@ -58,11 +60,21 @@ export default function Projects() {
   return (
     <section id="projects" className="py-20 px-4 sm:px-6 lg:px-10 xl:px-14">
       <div className="max-w-[1700px] mx-auto">
+        {/* Bölüm başlığı */}
+        <motion.span
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="text-sky-400 text-sm font-semibold uppercase tracking-widest mb-10 block text-center"
+        >
+          Portfolyo
+        </motion.span>
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-0">
           {/* Sol — Veri Bilimi */}
           <ProjectColumn
             id="data-science"
-            eyebrow="Veri Bilimi"
             title="Veri Bilimi Projeleri"
             description="Python ile makine öğrenmesi, derin öğrenme ve veri analizi."
             items={dataScience}
@@ -72,9 +84,8 @@ export default function Projects() {
           {/* Sağ — Frontend */}
           <ProjectColumn
             id="frontend-projects"
-            eyebrow="Portfolyo"
-            title="Frontend & Yazılım Projeleri"
-            description="Gerçek dünyada kullanılan web arayüzleri ve masaüstü çözümler."
+            title="Backend ve Frontend Projeleri"
+            description="Gerçek dünyada kullanılan full stack web projeleri ve C# .NET projeleri."
             items={frontend}
             className="lg:pl-10 xl:pl-14 lg:border-l lg:border-[#1e293b]"
           />
