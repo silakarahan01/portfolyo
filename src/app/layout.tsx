@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sıla Karahan — Full Stack & Frontend Developer",
+  title: "Sıla Karahan — Full Stack & .NET C# Developer",
   description:
     "Next.js, Django ve React ile web uygulamaları geliştiren yazılım mühendisi. Projelerimi ve çalışmalarımı keşfedin.",
   keywords: [
@@ -34,14 +34,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "tr_TR",
     url: "https://silakarahan.com.tr",
-    title: "Sıla Karahan — Full Stack & Frontend Developer",
+    title: "Sıla Karahan — Full Stack & .NET C# Developer",
     description:
       "Next.js, Django ve React ile web uygulamaları geliştiren yazılım mühendisi.",
     siteName: "Sıla Karahan Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sıla Karahan — Full Stack & Frontend Developer",
+    title: "Sıla Karahan — Full Stack & .NET C# Developer",
     description:
       "Next.js, Django ve React ile web uygulamaları geliştiren yazılım mühendisi.",
   },
