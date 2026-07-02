@@ -146,8 +146,8 @@ export const projects: Project[] = [
     category: "data-science",
     domain: "data-science",
     metrics: [
-      { label: "Doğruluk", value: "~%60" },
-      { label: "F1", value: "~0.62" },
+      { label: "Doğruluk", value: "~%90" },
+      { label: "F1", value: "~0.85" },
     ],
   },
 ];
