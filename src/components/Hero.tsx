@@ -72,8 +72,8 @@ export default function Hero() {
             download="Sıla Karahan Özgeçmiş.pdf"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-sky-600 hover:bg-sky-500 text-white text-sm font-semibold transition-all hover:shadow-lg hover:shadow-sky-600/25 active:scale-95"
           >
-            <Download size={18} />
-            CV İndir
+            <Download size={12} />
+            CV
           </a>
 
           <div className="flex items-center gap-5">
