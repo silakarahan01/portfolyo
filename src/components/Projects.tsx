@@ -85,7 +85,7 @@ export default function Projects() {
           <ProjectColumn
             id="frontend-projects"
             title="Backend ve Frontend Projeleri"
-            description="Gerçek dünyada kullanılan full stack web projeleri ve C# .NET projeleri."
+            description="Gerçek dünyada kullanılan Full Stack web projeleri ve C# .NET projeleri."
             items={frontend}
             className="lg:pl-10 xl:pl-14 lg:border-l lg:border-[#1e293b]"
           />

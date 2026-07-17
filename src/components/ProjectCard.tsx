@@ -77,10 +77,6 @@ export default function ProjectCard({ project, index }: Props) {
           </span>
         </div>
 
-        {/* Placeholder icon when no image */}
-        <div className="absolute inset-0 flex items-center justify-center opacity-10">
-          <Monitor size={48} className="text-sky-400" />
-        </div>
       </div>
 
       {/* Content */}
