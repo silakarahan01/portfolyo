@@ -76,7 +76,11 @@ export default function Contact() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: i * 0.1 }}
-              className="group flex items-start gap-4 p-5 rounded-2xl border border-[#1e293b] bg-[#0f172a] hover:border-sky-600/40 transition-all card-hover"
+              className={`group flex items-start gap-4 p-5 rounded-2xl border border-[#1e293b] bg-[#0f172a] hover:border-sky-600/40 transition-all card-hover${
+                i === contactLinks.length - 1
+                  ? " sm:col-span-2 sm:w-[calc(50%-0.5rem)] sm:justify-self-center"
+                  : ""
+              }`}
             >
               <div className="w-10 h-10 rounded-xl bg-sky-600/15 flex items-center justify-center shrink-0 group-hover:bg-sky-600/25 transition-colors">
                 {item.isCustom ? (
