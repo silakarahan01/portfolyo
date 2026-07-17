@@ -66,7 +66,7 @@ export default function About() {
               <p>
                 Profesyonel kariyerimde{" "}
                 <span className="text-slate-300 font-medium">
-                  1 yıl boyunca Frontend Developer
+                  1 yıl boyunca Web Developer olarak
                 </span>{" "}
                 olarak{" "}
                 <a
@@ -77,9 +77,9 @@ export default function About() {
                 >
                   Goal Testing
                 </a>
-                ’te görev aldım; JavaScript, TypeScript, React Native, HTML5,
+                ’te görev aldım; Django, Docker, JavaScript, TypeScript, React Native, HTML5,
                 CSS3, Tailwind CSS ve Bootstrap 5 gibi teknolojilerle kullanıcı
-                odaklı, modern arayüzler geliştirdim.
+                odaklı, modern web sayfaları geliştirdim.
               </p>
               <p>
                 Bireysel projelerimde{" "}
