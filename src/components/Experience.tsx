@@ -12,11 +12,11 @@ const experiences = [
     location: "İstanbul, Türkiye",
     current: false,
     description:
-      "Goal Testing ekosistemindeki web ürünlerinin frontend mimarisini kurguladım; ana platform, satış paneli ve kullanıcı portallarının arayüzlerini modern UI/UX ve responsive ilkelerle geliştirdim. Bu süreçte Şubat–Mayıs 2026 arasındaki zorunlu stajımı da aynı ekipte tamamladım.",
+      "Goal Testing ekosistemindeki ana web platformu ve kullanıcı portallarının geliştirilme süreçlerinde rol alarak, modüler mimari standartlarına uygun uçtan uca web çözümleri ürettim; ağırlıklı olarak backend mimarisinde çalışırken frontend arayüzlerinin geliştirilmesine de katkı verdim. Bu süreçte Şubat–Mayıs 2026 arasındaki zorunlu stajımı da aynı ekipte tamamladım.",
     highlights: [
-      "Ana web platformu, satış paneli ve kullanıcı portallarının frontend mimarisini, modern UI/UX standartları ve responsive tasarım ilkelerine uygun olarak sıfırdan kurgulayıp geliştirdim.",
-      "Web performansını (Core Web Vitals) artırmak için Lazy Loading, kod bölme (code-splitting) ve etkili DOM yönetimi uyguladım; BEM mimarisiyle sürdürülebilir ve modüler bir CSS yapısı kurdum.",
-      "Karmaşık veri tabloları ve dinamik form bileşenleri içeren yönetici (CMS/Admin) ekranlarında state yönetimini optimize ederek REST API entegrasyonlarıyla hatasız ve asenkron veri akışı sağladım.",
+      "İstemci ve sunucu tarafı iletişimini optimize etmek amacıyla asenkron veri yönetimi tekniklerini uyguladım; RESTful API entegrasyonlarıyla güvenli ve hatasız veri akışını sağladım.",
+      "Karmaşık veri tabloları ve dinamik form bileşenleri içeren yönetici (CMS/Admin) ekranlarında state yönetimini kurguladım; performans optimizasyonları ve kod bölme (code-splitting) mimarilerini entegre ettim.",
+      "Modern UI/UX ve responsive tasarım ilkelerine uygun, yeniden kullanılabilir arayüz bileşenleri geliştirerek frontend mimarisine de katkı sağladım.",
     ],
     tech: ["HTML5", "CSS3", "JavaScript", "BEM", "REST API"],
     color: "sky",
