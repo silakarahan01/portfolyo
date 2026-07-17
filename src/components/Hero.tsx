@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, ArrowDown } from "lucide-react";
+import { Mail, ArrowDown, Download } from "lucide-react";
 import GithubIcon from "@/components/icons/GithubIcon";
 import LinkedinIcon from "@/components/icons/LinkedinIcon";
 import { scrollToHref } from "@/lib/lenis";
@@ -65,8 +65,16 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="flex flex-wrap items-center justify-center gap-4"
+          className="flex flex-wrap items-center justify-center gap-5"
         >
+          <a
+            href="/sila-karahan-cv.pdf"
+            download="Sıla Karahan Özgeçmiş.pdf"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-sky-600 hover:bg-sky-500 text-white text-sm font-semibold transition-all hover:shadow-lg hover:shadow-sky-600/25 active:scale-95"
+          >
+            <Download size={18} />
+            CV İndir
+          </a>
 
           <div className="flex items-center gap-5">
             <a
