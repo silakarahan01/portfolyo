@@ -1,18 +1,23 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Briefcase, Calendar, MapPin } from "lucide-react";
+import { Briefcase, Calendar, MapPin, ExternalLink } from "lucide-react";
+import { ESENTRE_PLAY_STORE_URL } from "@/lib/links";
 
 const experiences = [
   {
-    company: "Tekniko Yazılım Çözümleri",
+    company: "Tekniko Software Solutions",
     role: "Full Stack Developer",
     type: "Tam Zamanlı",
     period: "Eylül 2026 — Devam Ediyor",
     location: "İstanbul, Türkiye",
     current: true,
+    productLink: {
+      label: "Esentre mobil uygulaması — Google Play'de yayında",
+      url: ESENTRE_PLAY_STORE_URL,
+    },
     description:
-      "Mezun olduktan hemen sonra Tekniko Yazılım Çözümleri bünyesinde Full Stack Developer olarak çalışmaya başladım ve backend, frontend ve mobil alanlarında görev almaya devam ediyorum. Esentre (ERP, SaaS & CRM) projesinin web tarafında geliştirmeler yaptım; yeni çıkacak Esentre mobil uygulamasının hem MVP sürecinde hem de ilk versiyonunda (v1) backend ve mobil tarafında çalıştım. Python, Django, React Native, PostgreSQL ve Redis odaklı teknolojilerle ölçeklenebilir sistemler inşa ederken; Docker, Nginx ve Celery ile sistem performansını ve kararlılığını optimize ettim.",
+      "Mezun olduktan hemen sonra Tekniko Software Solutions bünyesinde Full Stack Developer olarak çalışmaya başladım ve backend, frontend ve mobil alanlarında görev almaya devam ediyorum. Esentre (ERP, SaaS & CRM) projesinin web tarafında geliştirmeler yaptım; yeni çıkacak Esentre mobil uygulamasının hem MVP sürecinde hem de ilk versiyonunda (v1) backend ve mobil tarafında çalıştım. Python, Django, React Native, PostgreSQL ve Redis odaklı teknolojilerle ölçeklenebilir sistemler inşa ederken; Docker, Nginx ve Celery ile sistem performansını ve kararlılığını optimize ettim.",
     highlights: [
       "Esentre (ERP, SaaS & CRM) projesinin web tarafında geliştirmeler yaptım; yeni çıkacak Esentre mobil uygulamasının MVP sürecinde ve ilk versiyonunda (v1) hem backend hem de mobil tarafında çalıştım.",
       "Backend & Altyapı: Django, Python ve PostgreSQL kullanarak ölçeklenebilir ve güvenli API altyapıları geliştirdim. Kimlik doğrulama süreçleri için PyJWT entegrasyonunu sağladım.",
@@ -180,6 +185,19 @@ export default function Experience() {
                           </li>
                         ))}
                       </ul>
+
+                      {/* Product link */}
+                      {exp.productLink && (
+                        <a
+                          href={exp.productLink.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1.5 mb-5 text-sm text-sky-400 hover:text-sky-300 transition-colors"
+                        >
+                          <ExternalLink size={13} />
+                          {exp.productLink.label}
+                        </a>
+                      )}
 
                       {/* Tech badges */}
                       <div className="flex flex-wrap gap-2">

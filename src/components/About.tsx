@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Monitor, Code2, Database, Wrench, BrainCircuit } from "lucide-react";
+import { ESENTRE_PLAY_STORE_URL } from "@/lib/links";
 
 const skills = [
   {
@@ -22,7 +23,7 @@ const skills = [
   {
     icon: Database,
     title: "Veritabanı & Araçlar",
-    items: ["MySQL", "MSSQL", "SQL", "Git", "GitHub", "Docker", "Vercel", "VS Code"],
+    items: ["MySQL", "MSSQL", "MongoDB","PostgreSQL","SQLite", "Git", "GitHub", "Docker", "Vercel", "VS Code"],
   },
   {
     icon: Monitor,
@@ -72,9 +73,9 @@ export default function About() {
               <p>
                 Mezun olduktan hemen sonra{" "}
                 <span className="text-slate-300 font-medium">
-                  Tekniko Yazılım Çözümleri
+                  Tekniko Software Solutions
                 </span>
-                ’nde{" "}
+                ’ta{" "}
                 <span className="text-slate-300 font-medium">
                   Full Stack Developer
                 </span>{" "}
@@ -82,9 +83,18 @@ export default function About() {
                 alanlarında görev almaya devam ediyorum. ERP, SaaS ve CRM
                 ürünü{" "}
                 <span className="text-slate-300 font-medium">Esentre</span>
-                ’nin web tarafında geliştirmeler yaptım; yeni çıkacak Esentre
-                mobil uygulamasının hem MVP sürecinde hem de ilk versiyonunda
-                (v1) backend ve mobil tarafında çalıştım. MVP sürecinde ayrıca
+                ’nin web tarafında geliştirmeler yaptım; ayrıca{" "}
+                <a
+                  href={ESENTRE_PLAY_STORE_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sky-400 hover:text-sky-300 transition-colors"
+                >
+                  Esentre mobil uygulamasının
+                </a>{" "}
+                (Google Play’de yayında) hem MVP sürecinde hem de ilk
+                versiyonunda (v1) backend ve mobil tarafında çalıştım. MVP
+                sürecinde ayrıca
                 satış ekibine yönelik bir tanıtım toplantısı düzenleyip
                 sunumlar yaptım.
               </p>
