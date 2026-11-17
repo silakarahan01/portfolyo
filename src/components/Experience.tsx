@@ -5,8 +5,28 @@ import { Briefcase, Calendar, MapPin } from "lucide-react";
 
 const experiences = [
   {
+    company: "Tekniko Yazılım Çözümleri",
+    role: "Full Stack Developer",
+    type: "Tam Zamanlı",
+    period: "Eylül 2026 — Devam Ediyor",
+    location: "İstanbul, Türkiye",
+    current: false,
+    description:
+      "Tekniko Yazılım Çözümleri bünyesinde Full-Stack Developer olarak; kurumsal düzeyde Esentre (ERP, SaaS & CRM) projesinin web tabanlı arayüzleri ve mobil uygulamasının MVP'den ilk versiyonuna kadar olan geliştirme süreçlerini üstlendim. Python, Django, React Native, PostgreSQL ve Redis odaklı modern teknolojilerle ölçeklenebilir sistemler inşa ederken; Docker, Nginx ve Celery ile sistem performansını ve kararlılığını optimize ettim. Teknik sorumluluklarım kapsamında ayrıca GitHub üzerinde issue yönetimi gerçekleştiriyor ve takım içi Pull Request (code review) süreçlerini yöneterek kod kalitesine katkı sağlıyorum.",
+    highlights: [
+      "Esentre (ERP, SaaS & CRM) projesinin web ve mobil platformlarının geliştirme süreçlerinde aktif rol aldım; web arayüzleri ve mobil uygulamanın MVP'sinden ilk sürümüne (v1.0) kadar olan tüm yaşam döngüsünü yönettim.",
+      "Backend & Altyapı: Django, Python ve PostgreSQL kullanarak ölçeklenebilir ve güvenli API altyapıları geliştirdim. Kimlik doğrulama süreçleri için PyJWT entegrasyonunu sağladım.",
+      "Asenkron Görev Yönetimi: Celery, Celery Beat ve Kombu kullanarak arka plan görevlerini (background jobs) ve periyodik süreçleri optimize ettim; Flower ile sistem izlenebilirliği (monitoring) sağladım ve Redis'i message broker / cache katmanı olarak yapılandırdım.",
+      "Frontend & Arayüz: Modern ve performanslı web arayüzleri için Tailwind CSS ve Alpine.js teknolojilerini kullandım; React Native (Expo) ile cross-platform mobil uygulamanın MVP ve ilk versiyon süreçlerini tamamladım.",
+      "DevOps & Sunucu: Docker ile konteynerizasyon süreçlerini yöneterek uygulama ortamlarını standardize ettim; Nginx ve Gunicorn ile üretim (production) ortamı dağıtımlarını gerçekleştirdim.",
+      "Takım Çalışması & Süreç Yönetimi: GitHub üzerinden issue takibi ve proje yönetimini üstlendim; açılan Pull Request'leri (PR) inceleyerek (code review) kod kalitesini ve ekip standartlarını denetledim."
+    ],
+    tech: ["Django", "Tailwind CSS", "Alpine.js", "PostgreSQL", "React Native", "Celery Beat", "Gunicorn", "django-ninja", "Docker"],
+    color: "sky",
+  },
+  {
     company: "Goal Testing",
-    role: "Web Developer",
+    role: "Full Stack Developer",
     type: "Yarı Zamanlı · Zorunlu Staj",
     period: "Ağustos 2025 — Temmuz 2026",
     location: "İstanbul, Türkiye",
