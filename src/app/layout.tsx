@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "Django",
     "React",
     "TypeScript",
-    "Web Developer",
+    "Full Stack Developer",
   ],
   authors: [{ name: "Sıla Karahan", url: "https://silakarahan.com.tr" }],
   creator: "Sıla Karahan",

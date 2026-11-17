@@ -7,7 +7,7 @@ const skills = [
   {
     icon: Monitor,
     title: "Frontend",
-    items: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Bootstrap"],
+    items: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Bootstrap",],
   },
   {
     icon: Code2,
@@ -24,6 +24,11 @@ const skills = [
     title: "Veritabanı & Araçlar",
     items: ["MySQL", "MSSQL", "SQL", "Git", "GitHub", "Docker", "Vercel", "VS Code"],
   },
+  {
+    icon: Monitor,
+    title: "Mobile",
+    items: ["React Native", "Django", "Expo", "TypeScript", "Android", "IOS", "EAS Build", "React", "Expo Router"]
+  }
 ];
 
 export default function About() {
@@ -56,17 +61,41 @@ export default function About() {
                 <span className="text-slate-300 font-medium">
                   Bilgisayar Mühendisliği mezunu
                 </span>
-                , modern web teknolojilerinden yapay zeka sistemlerine kadar
-                geniş bir yelpazede{" "}
+                , ağırlıklı olarak{" "}
                 <span className="text-slate-300 font-medium">
-                  uçtan uca (Full Stack)
+                  Python ve Django
                 </span>{" "}
-                çözümler üreten bir yazılım geliştiriciyim.
+                ile arka plan (backend) geliştiren, ön yüzden yapay zeka
+                sistemlerine kadar uçtan uca (Full Stack) çözümler üreten bir
+                yazılım geliştiriciyim.
               </p>
               <p>
-                Profesyonel kariyerimde{" "}
+                Mezun olduktan hemen sonra{" "}
                 <span className="text-slate-300 font-medium">
-                  1 yıl boyunca Web Developer olarak
+                  Tekniko Yazılım Çözümleri
+                </span>
+                ’nde{" "}
+                <span className="text-slate-300 font-medium">
+                  Full Stack Developer
+                </span>{" "}
+                olarak çalışmaya başladım ve halen backend, frontend ve mobil
+                alanlarında görev almaya devam ediyorum. ERP, SaaS ve CRM
+                ürünü{" "}
+                <span className="text-slate-300 font-medium">Esentre</span>
+                ’nin web tarafında geliştirmeler yaptım; yeni çıkacak Esentre
+                mobil uygulamasının hem MVP sürecinde hem de ilk versiyonunda
+                (v1) backend ve mobil tarafında çalıştım. MVP sürecinde ayrıca
+                satış ekibine yönelik bir tanıtım toplantısı düzenleyip
+                sunumlar yaptım.
+              </p>
+              <p>
+                Geliştirmenin yanında GitHub üzerinde issue ve task’ları açıp
+                yönetiyor, ekip arkadaşlarımın açtığı pull request’leri code
+                review ederek geri bildirim veriyor, ekip içi toplantılar
+                yürütüyor ve pair çalışmalarıyla ekibe destek oluyorum. Bundan
+                önce{" "}
+                <span className="text-slate-300 font-medium">
+                  1 yıl boyunca Full Stack Developer
                 </span>{" "}
                 olarak{" "}
                 <a
@@ -77,23 +106,27 @@ export default function About() {
                 >
                   Goal Testing
                 </a>
-                ’te görev aldım; Django, Docker, JavaScript, TypeScript, React Native, HTML5,
-                CSS3, Tailwind CSS ve Bootstrap 5 gibi teknolojilerle kullanıcı
-                odaklı, modern web sayfaları geliştirdim.
-              </p>
-              <p>
-                Bireysel projelerimde{" "}
-                <span className="text-slate-300 font-medium">C# ve .NET</span>{" "}
-                ekosistemiyle ölçeklenebilir arka plan mimarileri kurarken,{" "}
-                <span className="text-slate-300 font-medium">Python</span> ile{" "}
+                ’te görev aldım; arka planda{" "}
                 <span className="text-slate-300 font-medium">
-                  Makine Öğrenmesi ve Derin Öğrenme
+                  Django ve Docker
                 </span>{" "}
-                alanlarında model geliştirme süreçlerinde aktif rol aldım.
+                ile çalışırken, ön yüzde JavaScript, TypeScript, React Native,
+                HTML5, CSS3, Tailwind CSS ve Bootstrap 5 gibi teknolojilerle
+                kullanıcı odaklı, modern arayüzler geliştirdim.
               </p>
               <p>
-                Disiplinler arası bu teknik yetkinliklerimle yenilikçi ve yüksek
-                performanslı yazılım ürünleri ortaya koymayı hedefliyorum.
+                <span className="text-slate-300 font-medium">Python</span>{" "}
+                benim ana çalışma alanım: Django ile web ve mobil uygulamaların
+                arka plan servislerini kurmanın yanında Makine Öğrenmesi ve
+                Derin Öğrenme alanlarında model geliştirme süreçlerinde aktif
+                rol aldım. Buna ek olarak bireysel projelerimde{" "}
+                <span className="text-slate-300 font-medium">C# ve .NET</span>{" "}
+                ekosistemini de kullanıyorum.
+              </p>
+              <p>
+                Python ve Django odaklı bu teknik yetkinliklerimle yenilikçi ve
+                yüksek performanslı yazılım ürünleri ortaya koymayı
+                hedefliyorum.
               </p>
             </div>
 

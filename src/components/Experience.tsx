@@ -10,18 +10,19 @@ const experiences = [
     type: "Tam Zamanlı",
     period: "Eylül 2026 — Devam Ediyor",
     location: "İstanbul, Türkiye",
-    current: false,
+    current: true,
     description:
-      "Tekniko Yazılım Çözümleri bünyesinde Full-Stack Developer olarak; kurumsal düzeyde Esentre (ERP, SaaS & CRM) projesinin web tabanlı arayüzleri ve mobil uygulamasının MVP'den ilk versiyonuna kadar olan geliştirme süreçlerini üstlendim. Python, Django, React Native, PostgreSQL ve Redis odaklı modern teknolojilerle ölçeklenebilir sistemler inşa ederken; Docker, Nginx ve Celery ile sistem performansını ve kararlılığını optimize ettim. Teknik sorumluluklarım kapsamında ayrıca GitHub üzerinde issue yönetimi gerçekleştiriyor ve takım içi Pull Request (code review) süreçlerini yöneterek kod kalitesine katkı sağlıyorum.",
+      "Mezun olduktan hemen sonra Tekniko Yazılım Çözümleri bünyesinde Full Stack Developer olarak çalışmaya başladım ve backend, frontend ve mobil alanlarında görev almaya devam ediyorum. Esentre (ERP, SaaS & CRM) projesinin web tarafında geliştirmeler yaptım; yeni çıkacak Esentre mobil uygulamasının hem MVP sürecinde hem de ilk versiyonunda (v1) backend ve mobil tarafında çalıştım. Python, Django, React Native, PostgreSQL ve Redis odaklı teknolojilerle ölçeklenebilir sistemler inşa ederken; Docker, Nginx ve Celery ile sistem performansını ve kararlılığını optimize ettim.",
     highlights: [
-      "Esentre (ERP, SaaS & CRM) projesinin web ve mobil platformlarının geliştirme süreçlerinde aktif rol aldım; web arayüzleri ve mobil uygulamanın MVP'sinden ilk sürümüne (v1.0) kadar olan tüm yaşam döngüsünü yönettim.",
+      "Esentre (ERP, SaaS & CRM) projesinin web tarafında geliştirmeler yaptım; yeni çıkacak Esentre mobil uygulamasının MVP sürecinde ve ilk versiyonunda (v1) hem backend hem de mobil tarafında çalıştım.",
       "Backend & Altyapı: Django, Python ve PostgreSQL kullanarak ölçeklenebilir ve güvenli API altyapıları geliştirdim. Kimlik doğrulama süreçleri için PyJWT entegrasyonunu sağladım.",
       "Asenkron Görev Yönetimi: Celery, Celery Beat ve Kombu kullanarak arka plan görevlerini (background jobs) ve periyodik süreçleri optimize ettim; Flower ile sistem izlenebilirliği (monitoring) sağladım ve Redis'i message broker / cache katmanı olarak yapılandırdım.",
       "Frontend & Arayüz: Modern ve performanslı web arayüzleri için Tailwind CSS ve Alpine.js teknolojilerini kullandım; React Native (Expo) ile cross-platform mobil uygulamanın MVP ve ilk versiyon süreçlerini tamamladım.",
       "DevOps & Sunucu: Docker ile konteynerizasyon süreçlerini yöneterek uygulama ortamlarını standardize ettim; Nginx ve Gunicorn ile üretim (production) ortamı dağıtımlarını gerçekleştirdim.",
-      "Takım Çalışması & Süreç Yönetimi: GitHub üzerinden issue takibi ve proje yönetimini üstlendim; açılan Pull Request'leri (PR) inceleyerek (code review) kod kalitesini ve ekip standartlarını denetledim."
+      "Takım Çalışması & Süreç Yönetimi: Hem backend hem mobil tarafında GitHub üzerinde issue ve task'lar açıp yönettim; ekip arkadaşlarımın açtığı Pull Request'leri (PR) code review ederek geri bildirim verdim; ekip içi toplantılar yürüttüm ve pair çalışmalarıyla ekip arkadaşlarıma destek oldum.",
+      "İletişim & Sunum: Mobil uygulamanın MVP sürecinde satış ekibine yönelik bir tanıtım toplantısı düzenleyip sunumlar yaptım; ürünü teknik olmayan ekip üyelerine aktardım."
     ],
-    tech: ["Django", "Tailwind CSS", "Alpine.js", "PostgreSQL", "React Native", "Celery Beat", "Gunicorn", "django-ninja", "Docker"],
+    tech: ["Django", "Tailwind CSS", "Alpine.js", "PostgreSQL", "React Native", "Celery Beat", "Gunicorn", "django-ninja", "Docker", "CI/CD", "NGİNX", "PyJWT", "ERP", "SaaS", "CRM"],
     color: "sky",
   },
   {
