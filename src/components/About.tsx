@@ -1,10 +1,15 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Monitor, Code2, Database, Wrench, BrainCircuit } from "lucide-react";
+import { Monitor, Code2, Database, Wrench, BrainCircuit, Globe } from "lucide-react";
 import { ESENTRE_PLAY_STORE_URL } from "@/lib/links";
 
 const skills = [
+  {
+    icon: Globe,
+    title: "Web",
+    items: ["Python", "Django", "Django REST Framework", "REST API", "Celery", "Celery Beat", "PostgreSQL", "Docker", "React", "Next.js", "TypeScript", "Tailwind CSS"],
+  },
   {
     icon: Monitor,
     title: "Frontend",
@@ -28,7 +33,7 @@ const skills = [
   {
     icon: Monitor,
     title: "Mobile",
-    items: ["React Native", "Django", "Expo", "TypeScript", "Android", "IOS", "EAS Build", "React", "Expo Router"]
+    items: ["React Native", "Expo", "TypeScript", "Android", "IOS", "EAS Build", "React", "Expo Router"]
   }
 ];
 
